@@ -28,6 +28,7 @@ hr
 {
 	background-color:#f05f44;
 	border-color:  #f05f44;
+	opacity: 60%;
 }
 .btn-primary:hover
 {
@@ -42,4 +43,15 @@ hr
 .buffer
 {
 	height: 2rem;
+}
+.btn-search{
+	color: #f8f9fa;
+	background-color: green;
+	opacity: 70%;
+}
+.nav-items-hov:hover
+{
+	background-color: #ee4b08;
+	border-radius: 30px;
+	size: 1.7rem;
 }
