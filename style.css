@@ -83,7 +83,7 @@ hr
 /*Boxes of productos*/
 .zone {
     /*padding:30px 50px;*/
-    cursor:pointer;
+    /*cursor:pointer;*/
     color:#FFF;
     font-size:1.3em;
     border-radius:10px;
@@ -121,7 +121,7 @@ hr
 }
 .grid-wrapper {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(270px, 1fr));
     grid-gap: 20px;
 }
 .divs
@@ -142,7 +142,7 @@ hr
 	grid-column-start: 1;
 	grid-column-end: 4;
 	grid-row-start: 2;
-	grid-row-end: 4;
+	grid-row-end: 5;
 }
 .divs-img > img
 {
@@ -151,7 +151,7 @@ hr
 }
 .divs-img > img:hover
 {
-
+	transform: scale(1.1);
 }
 .divs-img-info
 {
@@ -173,12 +173,12 @@ hr
 {
 	grid-column-start: 4;
 	grid-column-end: -1;
-	grid-row-start: 4;
-	grid-row-end: -1;
+	grid-row-start: 3;
+	grid-row-end: 5;
 }
 .divs-img-add > img
 {
-	width: 70%;
+	width: 60%;
 	border-radius: 100px;
 }
 .divs-img-add > img:hover
