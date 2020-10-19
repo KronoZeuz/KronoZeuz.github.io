@@ -11,12 +11,19 @@ h1
 {
 	font-size: 3rem; 
 	color: #f8f9fa;
+	margin: 50px;
 }
 hr
 {
 	border-color: #ee4b08;
 	border-width: 3px;
 	max-width: 200px;
+}
+.stick
+{
+	position:fixed;
+    top: 0;
+    width: 100%;
 }
 .h2
 {
@@ -86,7 +93,7 @@ hr
     /*cursor:pointer;*/
     color:#FFF;
     font-size:1.3em;
-    border-radius:10px;
+    border-radius:4px;
     border:1px solid #bbb;
     transition: all 0.3s linear;
 }
@@ -120,6 +127,8 @@ hr
     opacity: 75%;
 }
 .grid-wrapper {
+	margin: 100px;
+	margin-top: 50px;
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(270px, 1fr));
     grid-gap: 20px;
