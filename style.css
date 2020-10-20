@@ -13,12 +13,6 @@ h1
 	color: #f8f9fa;
 	margin: 50px;
 }
-hr
-{
-	border-color: #ee4b08;
-	border-width: 3px;
-	max-width: 200px;
-}
 .stick
 {
 	position:fixed;
@@ -61,6 +55,22 @@ hr
 	background-color: green;
 	opacity: 90%;
 }
+@media only screen and (max-width: 600px) {
+    h1{
+        font-size: 2em;
+        padding: 0;
+    }
+    .btn-xl
+	{
+		padding: .5rem 1rem;
+	}
+	.h2
+	{
+		font-size: 1rem; 
+		color: #343a40;
+	}
+
+}
 /*best sellers section*/
 .nav-items-hov:hover
 {
@@ -76,7 +86,7 @@ hr
     background-size: cover;
     padding: 0;
     margin: 0px;
-    height: 50vh; 
+    height: 10vh; 
     display: flex;
     align-items: center;
     justify-content: center;
@@ -89,8 +99,6 @@ hr
 }
 /*Boxes of productos*/
 .zone {
-    /*padding:30px 50px;*/
-    /*cursor:pointer;*/
     color:#FFF;
     font-size:1.3em;
     border-radius:4px;
